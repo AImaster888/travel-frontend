@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd:*)",
+      "Bash(git -C \"d:/320code/travel-frontend\" diff index.html)",
+      "Bash(git -C \"d:/320code/travel-frontend\" log --oneline -3)",
+      "Bash(cmd /c \"d: && git status\")",
+      "Bash(cmd /c \"cd /d d:\\\\320code\\\\travel-frontend && git status\")",
+      "Bash(powershell -Command \"cd ''d:\\\\320code\\\\travel-frontend''; git status\")",
+      "Bash(powershell -Command \"Set-Location ''d:\\\\320code\\\\travel-frontend''; git add .; git commit -m ''Add energy spots to query list''; git push\")"
+    ]
+  }
+}
